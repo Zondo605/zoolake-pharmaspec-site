@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Invitation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Video Background -->
+  <div class="video-container">
+    <video autoplay loop muted playsinline id="background-video">
+      <source src="IMG_4837.mov" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Invitation Text -->
+  <div class="content">
+    <h1>Welcome to Our Special Event!</h1>
+    <p>We are excited to invite you to a one-of-a-kind experience. Join us and be part of something truly special.</p>
+    <a href="#rsvp" class="btn">RSVP Now</a>
+  </div>
+
+</body>
+</html>
